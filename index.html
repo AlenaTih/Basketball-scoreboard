@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="scoreboard">
+                <div class="player" id="home">
+                    <h3>HOME</h3>
+                    <h4 id="home-score">0</h4>
+                    <button onclick="goalHome()">+1</button>
+                    <button onclick="goal2Home()">+2</button>
+                    <button onclick="goal3Home()">+3</button>
+                </div>
+                <div class="player" id="guest">
+                    <h3>GUEST</h3>
+                    <h4 id="guest-score">0</h4>
+                    <button onclick="goal1Guest()">+1</button>
+                    <button onclick="goal2Guest()">+2</button>
+                    <button onclick="goal3Guest()">+3</button>
+                </div>
+            </div>
+            <button class="stretch-btn" onclick="winnerHighlight()">Who wins?</button>
+            <button class="stretch-btn" id="new-game" onclick="refresh()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

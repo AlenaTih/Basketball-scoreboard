@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-image: url(Images/Basketball.png);
+    background-color: #1B244A;
+    height: 540px;
+    padding: 40px;
+}
+
+@font-face {
+    font-family: cursed-timer;
+    src: url(cursed_timer_ulil.ttf);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #023E73;
+    text-align: center;
+    padding: 69px 80px;
+    max-width: 80%;
+    margin: 15px auto;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px #080001, -10px -10px 20px #080001;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-around;
+    background-color: #023E73;
+    color: white;
+    padding-bottom: 0;
+}
+
+.player {
+    margin: 0 45px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #EEE;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h4 {
+    background: cover;
+    background-color: #080001;
+    border-radius: 5px;
+    height: 120px;
+    color: #F2784B;
+    font-family: cursed-timer;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 25px 8px 0 8px;
+    margin: 0;
+}
+
+button {
+    border: 2px solid #9DD5EC;;
+    height: 45px;
+    width: 45px;
+    margin: 25px 5px 0 5px;
+    padding: 9px 7px;
+    font-family: cursed-timer;
+    font-size: 18px;
+    color: #9DD5EC;
+    background-color: #023E73;
+    border-radius: 5px;
+}
+
+.stretch-btn {
+    width: 120px;
+    margin: 40px auto 0 auto;
+}
+
+#new-game {
+    margin-top: 25px;
+}
